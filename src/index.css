@@ -277,12 +277,13 @@ aside.active {
 
   .service-box {
     .service-head {
-      color: #8C4BFF;
+      color: #8C4BFF !important;
       font-size: 30px;
       font-weight: 700;
     }
     .service-body{
-      color: white;
+      color: white !important;
+      font-size: 16px;
     }
   }
 }

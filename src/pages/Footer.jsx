@@ -16,11 +16,11 @@ const Footer = () => {
           <div className="footer-section">
             <p className="head">Quick Links</p>
             <a href="#hero" className='body'>Home</a>
-            <a href="#hero" className='body'>About</a>
-            <a href="#hero" className='body'>Projects</a>
-            <a href="#hero" className='body'>Skills</a>
-            <a href="#hero" className='body'>Service</a>
-            <a href="#hero" className='body'>Contact</a>
+            <a href="#about" className='body'>About</a>
+            <a href="#project" className='body'>Projects</a>
+            <a href="#skill" className='body'>Skills</a>
+            <a href="#service" className='body'>Service</a>
+            <a href="#contact" className='body'>Contact</a>
             
           </div>
           <div className="footer-section">
