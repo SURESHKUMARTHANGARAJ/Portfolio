@@ -11,6 +11,9 @@ a{
   text-decoration: none;
   color: inherit;
 }
+input::placeholder, textarea::placeholder {
+  color: white !important;
+}
 
 .loading{
   font-family: "Lobster", sans-serif;
@@ -273,10 +276,13 @@ aside.active {
   }
 
   .service-box {
-    p:first-child {
+    .service-head {
       color: #8C4BFF;
       font-size: 30px;
       font-weight: 700;
+    }
+    .service-body{
+      color: white;
     }
   }
 }
@@ -532,7 +538,10 @@ footer{
 .contact {
   padding: 0px 100px;
   padding-bottom: 50px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   .outer-box {
     width: 100%;
     display: flex;
@@ -603,7 +612,7 @@ footer{
         outline: none;
         border: none;
         background-color: rgb(44, 44, 44);
-        color: white;
+        color: white !important;
         border-radius: 5px;
       }
     }
