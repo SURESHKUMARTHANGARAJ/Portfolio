@@ -281,7 +281,8 @@ aside.active {
       font-weight: 700;
     }
     .service-body{
-      font-size: 16px;
+      font-size: 16px !important;
+      color: white !important;
     }
   }
 }
