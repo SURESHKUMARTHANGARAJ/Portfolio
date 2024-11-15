@@ -276,15 +276,12 @@ aside.active {
   }
 
   .service-box {
-    color: #8C4BFF;
-    .service-body{
-      color: white !important;
-      font-size: 16px;
-    }
     .service-head {
-      color: #8C4BFF !important;
       font-size: 30px !important;
       font-weight: 700;
+    }
+    .service-body{
+      font-size: 16px;
     }
   }
 }
@@ -950,7 +947,6 @@ footer{
 
     .service-box {
       width: 100%;
-      ;
     }
   }
 
