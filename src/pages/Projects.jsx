@@ -7,6 +7,7 @@ import cloudi5 from '../assets/images/project/Cloudi5.png';
 import tictactoe from '../assets/images/project/TicTacToe.png';
 import wordhunt from '../assets/images/project/wordgame.png';
 import calc from '../assets/images/project/Calculator.png';
+import smgroups from '../assets/images/project/smgroups.png';
 
 
 const Projects = () => {
@@ -15,6 +16,20 @@ const Projects = () => {
       <Title title="Recent Projects" sub="ipsum dolor sit amet consectetur adipisicing elit. Accusamus, atque!" />
       <div className="project-container">
         
+        <div className="project-card" data-aos="flip-left">
+          <img src={smgroups} alt="smgroups" />
+          <div className="cont">
+          <>
+          <h4>SM Groups</h4>
+          <p>A professional landing page featuring a service overview, client testimonials, partner logos, and an enquiry form to capture leads efficiently.</p>
+          </>
+          <div className="live">
+          <a href="https://www.thesmgroups.com">Live Demo &nbsp;<FaExternalLinkAlt />
+          </a>
+          </div>
+          </div>
+        </div>
+
         <div className="project-card" data-aos="flip-left">
           <img src={insurance} alt="Insurance Agency" />
           <div className="cont">
