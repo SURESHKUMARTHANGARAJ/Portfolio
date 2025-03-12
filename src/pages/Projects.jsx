@@ -8,6 +8,7 @@ import tictactoe from '../assets/images/project/TicTacToe.png';
 import wordhunt from '../assets/images/project/wordgame.png';
 import calc from '../assets/images/project/Calculator.png';
 import smgroups from '../assets/images/project/smgroups.png';
+import quantum from '../assets/images/project/quantum.png';
 
 
 const Projects = () => {
@@ -15,6 +16,21 @@ const Projects = () => {
     <div className='projects' id='project'>
       <Title title="Recent Projects" sub="ipsum dolor sit amet consectetur adipisicing elit. Accusamus, atque!" />
       <div className="project-container">
+
+        <div className="project-card" data-aos="flip-left">
+          <img src={quantum} alt="quantum Leaps" />
+          <div className="cont">
+          <>
+          <h4>Quantum Leaps</h4>
+          <p>A simple landing page built with PHP, HTML, CSS, and JS, featuring a responsive design and a contact form for user inquiries.</p>
+          </>
+          <div className="live">
+          <a href="https://quantumleaps.in/">Live Demo &nbsp;<FaExternalLinkAlt />
+          </a>
+          </div>
+          </div>
+        </div>
+
         
         <div className="project-card" data-aos="flip-left">
           <img src={smgroups} alt="smgroups" />
